@@ -53,10 +53,10 @@
 	<p style="color: white; width: 1000px; margin-left: auto; margin-right: auto; margin-top: 30px;">
 	<b>Instructions:</b>
 	<ul style="width: 1000px; margin-left: auto; margin-right: auto; color: white;">
-		<li>Cliquez sur "Lancer" pour passer en phase d'action et envoyer les cocinelles et découvrir leur configuration</li>
-		<li>Placez des items en cliquant d'abord une fois dans la barre de gauche pour les selectionner, puis quelque part sur le plateau </li>
-		<li>Vous devez empecher toutes les cocinelles d'atteindre le bout du plateau</li>
-		<li>Il est possible de déclancher les allumettes en cliquant dessus pendant la phase d'action</li>
+		<li>Cliquez sur "Lancer" pour envoyer les coccinelles et découvrir leur configuration. Elles se déplacement en ligne droite ;</li>
+		<li>Placez des items en cliquant d'abord une fois dans la barre de gauche pour les sélectionner, puis quelque part sur le plateau pour les poser ;</li>
+		<li>Vous devez empêcher toutes les coccinelles d'atteindre le bout du plateau ;</li>
+		<li>Il est possible de déclencher les allumettes en cliquant dessus pendant la phase d'action.</li>
 	</ul> </p>
 
 
