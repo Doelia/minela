@@ -12,7 +12,7 @@ function Interfac()
 
 	this.haveInStock = function(type)
 	{
-		return $('#menuDroite .minesDispos > .mine[type="'+type+'"] :first').size();
+		return $('#menuDroite .minesDispos > .mine[type="'+type+'"]:first').size();
 	}
 
 	this.addMineDispo = function(mine)
@@ -28,7 +28,8 @@ function Interfac()
 	}
 	this.rmMineDispo = function(mine)
 	{
-		$('#menuDroite .minesDispos > .mine[type="'+mine.type+'"] :first').remove();
+		console.log("rm mine"+mine.type);
+		$('#menuDroite .minesDispos > .mine[type="'+mine.type+'"]:first').remove();
 	}
 
 	this.rmAllMines = function()
