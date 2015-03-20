@@ -1,9 +1,10 @@
 <html>
 <head>
 	<title>Minelia</title>
+	<meta charset='utf-8'>
+	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
-
 	
 	<script type="text/javascript" src="js/main.js"></script>
 
@@ -28,7 +29,7 @@
 <body onselectstart="return false;">
 
 	<p style="text-align: center; color: white;">
-		Minelia. DÈveloppÈ en 48h par <a href="http://doelia.fr" style="color: white; text-decoration: none">Doelia</a> pour le Ludum Dare 25
+		Minelia. Produit en 48h par <a href="http://doelia.fr" style="color: white; text-decoration: none">Doelia</a> pour le Ludum Dare 25
 	</p>
 
 	<div id="game"
@@ -47,11 +48,16 @@
 		</div>
 	</div>
 
-		<p style="text-align: center; color: white; font-size: 11px">
-		Compatible Google Chrome uniquement
-	</p>
 
-	
+
+	<p style="color: white; width: 1000px; margin-left: auto; margin-right: auto; margin-top: 30px;">
+	<b>Instructions:</b>
+	<ul style="width: 1000px; margin-left: auto; margin-right: auto; color: white;">
+		<li>Cliquez sur "Lancer" pour passer en phase d'action et envoyer les cocinelles et d√©couvrir leur configuration</li>
+		<li>Placez des items en cliquant d'abord une fois dans la barre de gauche pour les selectionner, puis quelque part sur le plateau </li>
+		<li>Vous devez empecher toutes les cocinelles d'atteindre le bout du plateau</li>
+		<li>Il est possible de d√©clancher les allumettes en cliquant dessus pendant la phase d'action</li>
+	</ul> </p>
 
 
 
