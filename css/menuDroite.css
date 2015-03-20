@@ -1,0 +1,77 @@
+#menuDroite {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	height: 600px;
+	width: 300px;
+	color: black;
+}
+
+.minesDispos {
+	position: absolute;
+	border-radius: 5px;
+	height: 115px;
+	width: 215px;
+	left: 40px;
+	top: 200px;
+	padding: 0px;
+}
+
+.minesDispos .mine {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	float: left;
+	margin: 2px;
+}
+
+#finPreparation {
+	position: absolute;
+	width: 185px;
+	top: 505px;
+	left: 37px;
+	padding: 20px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#finPreparation:hover {
+	background: #0986e5;
+}
+
+#stats {
+	top: 310px;
+	left: 25px;
+	font-size: 15px;
+}
+
+#points {
+	position: absolute;
+	text-align: right;
+	font-size: 20px;
+	left: 44px;
+	top: 360px;
+	width: 200px;
+	cursor: default;
+}
+
+#ciblesRestantes {
+	position: absolute;
+	text-align: right;
+	font-size: 20px;
+	left: 44px;
+	top: 442px;
+	width: 200px;
+}
+
+.level {
+	position: absolute;
+	font-size: 20px;
+	top: 115px;
+	text-align: right;
+	left: 44px;
+	width: 200px;
+}
